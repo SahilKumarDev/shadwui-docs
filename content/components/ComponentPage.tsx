@@ -1,9 +1,25 @@
-import React from 'react'
+import Data from "./_components/data";
 
-const ComponentPage = () => {
-  return (
-    <div>ComponentPage</div>
-  )
+interface ComponentPageProps {
+  sourcePath: string;
+  files: string[];
 }
 
-export default ComponentPage
+export default function ComponentPage({
+  files,
+  sourcePath,
+}: ComponentPageProps) {
+  return (
+    <div className="space-y-8">
+      {files.map((componentName) => {
+        return (
+          <Data
+            componentName={componentName}
+            sourcePath={sourcePath}
+            key={componentName}
+          />
+        );
+      })}
+    </div>
+  );
+}
