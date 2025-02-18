@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
 
 const AlertDemo = () => {
   return (
-    <div>Alert Demo o1</div>
-  )
-}
+   <div className="bg-red-500 p-7">
+    Alert Box
+  
+   </div>
+  );
+};
 
-export default AlertDemo
+export default AlertDemo;

@@ -5,6 +5,20 @@
 @source '../node_modules/fumadocs-ui/dist/**/*.js';
 
 
+.mask-bottom {
+  mask-image: linear-gradient(to bottom, black calc(100% - 40px), transparent 100%);
+}
+
+.expend-code {
+  background: rgb(30, 41, 57);
+  background: linear-gradient(0deg, rgba(30, 41, 57, 1) 0%, rgba(30, 41, 57, 0.7987788865546218) 60%, rgba(30, 41, 57, 0.4038209033613446) 100%);
+}
+
+
+@theme {
+  --color-chai: #FF7700;
+  --color-chai-light: #ff851a;
+}
 
 
 ::-webkit-scrollbar {
