@@ -62,7 +62,7 @@ const Data = async ({ componentName, sourcePath }: DataProps) => {
           </TabsContent>
 
           <TabsContent value="code" className="p-0 mt-0">
-            <CodeBlock code={source!} theme="dark" />
+            <CodeBlock code={source!} language="javascript" />
           </TabsContent>
         </CardContent>
       </Card>

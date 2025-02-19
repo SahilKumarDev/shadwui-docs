@@ -4,20 +4,8 @@
 
 @source '../node_modules/fumadocs-ui/dist/**/*.js';
 
-
 .mask-bottom {
   mask-image: linear-gradient(to bottom, black calc(100% - 40px), transparent 100%);
-}
-
-.expend-code {
-  background: rgb(30, 41, 57);
-  background: linear-gradient(0deg, rgba(30, 41, 57, 1) 0%, rgba(30, 41, 57, 0.7987788865546218) 60%, rgba(30, 41, 57, 0.4038209033613446) 100%);
-}
-
-
-@theme {
-  --color-chai: #FF7700;
-  --color-chai-light: #ff851a;
 }
 
 
@@ -55,4 +43,21 @@
 ::-webkit-scrollbar-thumb:horizontal:hover {
   background: #e6e4e4;
   cursor: pointer;
+}
+
+.expend-code {
+  background: rgb(207, 207, 207);
+  background: linear-gradient(0deg, rgba(207, 207, 207, 1) 0%, rgba(207, 207, 207, 1) 60%, rgba(207, 207, 207, 1) 100%);
+}
+
+.expend-code-dark {
+  background: rgb(30, 41, 57);
+  background: linear-gradient(0deg, rgba(30, 41, 57, 1) 0%, rgba(30, 41, 57, 0.7987788865546218) 60%, rgba(30, 41, 57, 0.4038209033613446) 100%);
+}
+
+
+
+@theme {
+  --color-chai: #FF7700;
+  --color-chai-light: #ff851a;
 }

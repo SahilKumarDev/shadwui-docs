@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
 const AlertDemo = () => {
-  return (
-    <div>AlertDemo</div>
-  )
-}
+  return <><div>AlertDemo</div>  <div>AlertDemo</div>  <div>AlertDemo</div>  <div>AlertDemo</div>  <div>AlertDemo</div></>;
+};
 
-export default AlertDemo
+export default AlertDemo;
+
+
