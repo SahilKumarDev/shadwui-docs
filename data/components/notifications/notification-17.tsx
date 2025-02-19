@@ -8,7 +8,7 @@ export default function NotificationDemo() {
       <div className="flex gap-3">
         <Image
           className="size-9 rounded-full"
-          src={"/avatar-shadwui.png"}
+          src={"/avatar-shadwui.jpg"}
           width={32}
           height={32}
           alt="Mary Palmer"
