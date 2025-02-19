@@ -1,9 +1,8 @@
-import React from 'react'
+import { Badge } from "@/components/ui/badge";
+import React from "react";
 
 const BadgeDemo = () => {
-  return (
-    <div>BadgeDemo</div>
-  )
-}
+  return <Badge>Shadwui</Badge>;
+};
 
-export default BadgeDemo
+export default BadgeDemo;

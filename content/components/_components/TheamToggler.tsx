@@ -1,4 +1,5 @@
 "use client";
+
 import * as React from "react";
 import { useTheme } from "next-themes";
 
@@ -31,7 +32,7 @@ export function TheamToggler() {
       />
       <label
         htmlFor="theme-toggle"
-        className="relative inline-flex size-9 cursor-pointer items-center justify-center rounded-full bg-background transition-colors hover:bg-accent peer-focus-visible:outline peer-focus-visible:outline-ring/70"
+        className="relative inline-flex size-9 cursor-pointer items-center justify-center rounded-full transition-colors hover:bg-accent peer-focus-visible:outline peer-focus-visible:outline-ring/70"
         aria-hidden="true"
       >
         <svg 
