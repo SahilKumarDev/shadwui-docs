@@ -18,7 +18,7 @@ export default async function Page(props: {
   const MDX = page.data.body;
 
   return (
-    <DocsPage
+    <DocsPage 
       editOnGithub={{
         owner: "sahilkumardev",
         repo: "shadwui-docs",
@@ -28,7 +28,7 @@ export default async function Page(props: {
       toc={page.data.toc}
       tableOfContent={{
         style: "clerk",
-        single: false,
+        single: true,
       }}
     >
       <DocsTitle>{page.data.title}</DocsTitle>

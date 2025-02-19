@@ -55,8 +55,6 @@
   background: linear-gradient(0deg, rgba(30, 41, 57, 1) 0%, rgba(30, 41, 57, 0.7987788865546218) 60%, rgba(30, 41, 57, 0.4038209033613446) 100%);
 }
 
-
-
 @theme {
   --color-chai: #FF7700;
   --color-chai-light: #ff851a;

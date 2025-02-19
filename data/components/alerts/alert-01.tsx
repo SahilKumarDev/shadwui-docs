@@ -1,12 +1,17 @@
-import React from "react";
+import { TriangleAlert } from "lucide-react";
 
-const AlertDemo = () => {
+export default function AlertDemo() {
   return (
-   <div className="bg-red-500 p-7">
-    Alert Box
-  
-   </div>
+    <div className="rounded-lg border border-border px-4">
+      <p className="text-sm">
+        <TriangleAlert
+          className="-mt-0.5 me-3 inline-flex text-amber-500"
+          size={16}
+          strokeWidth={2}
+          aria-hidden="true"
+        />
+        Some information is missing!
+      </p>
+    </div>
   );
-};
-
-export default AlertDemo;
+}
