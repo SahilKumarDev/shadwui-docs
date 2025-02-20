@@ -28,7 +28,7 @@
     "@types/prismjs": "^1.26.5",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "cmdk": "^1.0.0",
+    "cmdk": "^1.0.4",
     "framer-motion": "^12.4.3",
     "fumadocs-core": "15.0.2",
     "fumadocs-mdx": "11.4.1",
