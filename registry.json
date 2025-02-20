@@ -12,7 +12,13 @@
         {
           "path": "registry/hello-world/hello-world.tsx",
           "type": "registry:ui",
-          "target": "components/shadwui/hello-world.tsx"
+          "target": "components/shadwui/hello-world.tsx",
+          "registryDependencies": [
+            "button",
+            "input",
+            "select",
+            "http://localhost:3000/r/hello-world.json"
+          ]
         }
       ]
     }
