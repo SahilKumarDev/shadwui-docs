@@ -6,7 +6,8 @@
     "build": "next build",
     "dev": "next dev",
     "start": "next start",
-    "postinstall": "fumadocs-mdx"
+    "postinstall": "fumadocs-mdx",
+    "registry:build": "shadcn build"
   },
   "dependencies": {
     "@radix-ui/react-checkbox": "^1.1.4",
@@ -32,6 +33,7 @@
     "prismjs": "^1.29.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "shadcn": "^2.4.0-canary.6",
     "sonner": "^2.0.0",
     "tailwind-merge": "^3.0.1",
     "tailwindcss-animate": "^1.0.7"
